@@ -1,0 +1,50 @@
+.sidenav
+{
+	background-color:#f1f1f1;
+	height:100%;
+}
+
+#box
+{
+	position:absolute;
+	height: 500px;
+	width:900px;
+	border:3px solid black;
+}
+#down
+{   position: absolute;
+	width: 894px;
+	height: 244px;
+	top:250px;
+    background-color:#A7EA44;
+}
+#up
+{  position: relative;
+	width: 894px;
+    height: 250px;
+	top:0px;
+   background-color:#A37AEC;
+}
+#butt
+{
+   position: absolute;
+   top:340px;
+}
+#pot
+{
+   position:absolute;
+   top:-20px;
+   left:-180px; 
+
+}
+.shit
+{
+	position: absolute;
+	visibility: hidden;
+	/*top:385px;*/
+}
+.info
+{
+	font-family: "Times New Roman";
+	color: #772C52
+}

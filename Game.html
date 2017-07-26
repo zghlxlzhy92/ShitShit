@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shitshit</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Game.css">
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container text-center">
+     <h1>Shit Shit</h1>      
+     <p>Welcome to have fun</p>
+     <br>
+             <h4>Instructions</h4>
+            <p class="info">This is an easy game,only need your patience.
+               All you need to do is to move the butt and click on it when a shit will comes out.Try to get the shit into the closestool.
+               There are two buttons.You can choose the green one to set your level.
+               The moving speed of the closestool will change accroding to your choice.
+               The quit button is for you to stop going on.
+               <h4>Remember</h4><p class="info">There is a time limit -- 60 seconds for this game.
+               We will calculate the in and out ones.</p>
+               
+               <h4>warning</h4><p class="info">The position of objects may be in an uncorrect position.
+               It does look well on my computer.
+               If this happens, please let me know and i will change it.</p>
+            </p>
+
+    </div>
+  </div>
+       
+       <div class="container-fluid">
+       	 <div class="row content"> 
+       	 	<div class="col-sm-3 sidenav">
+          <br><br>
+             <div class="dropdown">
+               <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" >Choose Level
+               <span class="caret"></span></button>
+               <ul class="dropdown-menu">
+                 <li><a href="#"><strong>Level 1</strong><button class="btn btn-info start">start</button></a></li>
+                 <li><a href="#" ><strong>Level 2</strong><button class="btn btn-info start">start</button></a></li>
+                 <li><a href="#"><strong>Level 3</strong><button class="btn btn-info start">start</button></a></li>
+            </ul>
+    
+     <!--<button type="button" class="btn btn-warning" id="Pause">Pause</button>-->
+             <button type="button" class="btn btn-danger" id="Quit">Quit</button>
+             <h3>Start from Now:<span id="clock"><strong></strong><span></h3>
+        </div>
+
+       	 		  <br>
+                 <ul class="list-group">
+                 <li class="list-group-item list-group-item-success">Result</li>
+                 <li class="list-group-item list-group-item-info">Success<p>     </p><span id="win">0</span></li>
+                 <li class="list-group-item list-group-item-warning">Miss<p>     </p><span id="miss">0</span></li>
+                 <li class="list-group-item list-group-item-danger">Percentage<p>     </p><span id="compare">0</span></li>
+
+                </ul>
+  
+       	 	</div>
+            <div class="col-sm-9">
+              <div id="box">
+                <div id="down"></div>
+                <div id="up"></div>
+                <img src="butt.png" id="butt">
+                <img src="pot.png" id="pot">
+                <img src="1.png" width="60px" height="60px" id="p_1" class="shit"> 
+                <img src="2.png" width="60px" height="60px" id="p_2" class="shit">   
+                <img src="3.png" width="60px" height="60px" id="p_3" class="shit">
+                <img src="4.png" width="60px" height="60px" id="p_4" class="shit">                
+
+                <img src="5.png" width="60px" height="60px" id="p_5" class="shit">                
+
+                <img src="6.png" width="60px" height="60px" id="p_6" class="shit">               
+
+                
+               
+              </div>
+            </div>
+       	 </div>
+       </div>
+    <script type="text/javascript" src="Game.js"></script>
+   
+</body>
+</html>
